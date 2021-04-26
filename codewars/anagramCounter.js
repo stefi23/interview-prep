@@ -21,9 +21,9 @@ function anagramCounter (wordsArray) {
     values[word] = !values[word] ? 1 : values[word] + 1
   }
 
- for (const property in values) {
-   let n = values[property]
-   counter += n * (n-1)/2  
-}
+  for (const property in values) {
+        let n = values[property]
+        counter += n * (n-1)/2  
+    }
   return counter;
 }
