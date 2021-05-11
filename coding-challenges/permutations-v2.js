@@ -35,6 +35,7 @@ function permutations(str) {
     
 
     let permuatatedChar = permutations(remainingChar)
+    console.log(permuatatedChar)
     for(permutation of permuatatedChar){
       results.push(char + permutation)
     }
